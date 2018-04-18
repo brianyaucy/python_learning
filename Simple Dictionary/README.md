@@ -1,7 +1,9 @@
 # Simple Dictionary
 
 <h2>Introduction</h2>
-- <code>data.json</code> contains definitions of some words
+<ul>
+  <li><code>data.json</code> contains definitions of some words</li>
+</ul>
 
 <h2>Objective</h2>
 - Design an app for searching definition of a particular word
