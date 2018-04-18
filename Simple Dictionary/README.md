@@ -1,7 +1,7 @@
 # Simple Dictionary
 
-Introduction:
-- data.json contains definitions of some words
+<h2>Introduction</h2>
+- <code>data.json</code> contains definitions of some words
 
 Objective:
 - Design an app for searching definition of a particular word
