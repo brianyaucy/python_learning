@@ -10,20 +10,20 @@ def look_for_word(input_word):
     #input_word = input_word.lower()
     match = 0
     similar_words = get_close_matches(input_word, dictionary.keys())
-    if input_word in dictionary:
+    if input_word.lower() in dictionary:
         match += 1
-        print(f"Found a match '{input_word}'!")
-        print_definition(input_word)
+        print(f"Found a match '{input_word.lower()}'!")
+        print_definition(input_word.lower())
 
     elif input_word.title() in dictionary:
         match += 1
         print(f"Found a match '{input_word.title()}'!")
         print_definition(input_word.title())
 
-    elif input_word.capitalize() in dictionary:
+    elif input_word.upper() in dictionary:
         match += 1
-        print(f"Found a match '{input_word.capitalized()}'!")
-        print_definition(input_word.capitalized())
+        print(f"Found a match '{input_word.upper()}'!")
+        print_definition(input_word.upper())
 
     elif len(similar_words) > 0:
         for word in similar_words:
