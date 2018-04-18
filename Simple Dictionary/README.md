@@ -25,3 +25,7 @@
   <li>Prompt for user input</li>
   <li><code>if</code>, <code>elif</code> and <code>else</code></li>
 </ul>
+
+<h2>Original</h2>
+<ul>
+  <li><b>The Python Mega Course: Build 10 Real World Applications</b> by <b>Ardit Sclce</b></li>
