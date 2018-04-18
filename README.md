@@ -6,3 +6,8 @@ This repository is for recording my python learning project.
 <ul>
   <li>With a dictionary in json format, try to make an app for finding definitions of a word.</li>
 </ul>
+
+<h2>Find Prime Numbers</h2>
+<ul>
+  <li>Find prime numbers below a certain number.</li>
+</ul>
