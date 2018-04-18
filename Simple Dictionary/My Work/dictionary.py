@@ -7,13 +7,23 @@ data.close()
 
 
 def look_for_word(input_word):
-    input_word = input_word.lower()
+    #input_word = input_word.lower()
     match = 0
     similar_words = get_close_matches(input_word, dictionary.keys())
     if input_word in dictionary:
         match += 1
         print(f"Found a match '{input_word}'!")
         print_definition(input_word)
+
+    elif input_word.title() in dictionary:
+        match += 1
+        print(f"Found a match '{input_word.title()}'!")
+        print_definition(input_word.title())
+
+    elif input_word.capitalize() in dictionary:
+        match += 1
+        print(f"Found a match '{input_word.capitalized()}'!")
+        print_definition(input_word.capitalized())
 
     elif len(similar_words) > 0:
         for word in similar_words:
