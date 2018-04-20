@@ -15,3 +15,4 @@ This repository is for recording my python learning project.
 <h2>Learning Resources</h2>
 <ul>
   <li><a href="https://repl.it/" target="_blank">Repl.it</a> - Online program compiler.</li>
+  <li><a href="https://docs.python.org/3/">Python 3 Documentation</li>
